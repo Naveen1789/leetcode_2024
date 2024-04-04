@@ -23,7 +23,7 @@ def linear_search(arr, target):
             print ("Target found at index " + str(i) + ".")
             return i
         i = i+1
-    print ("Target now found in the array.")
+    print ("Target not found in the array.")
     return -1
 
 arr1 = [1, 17, 5, -10, 25, 21]
